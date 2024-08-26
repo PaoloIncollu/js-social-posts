@@ -115,7 +115,7 @@ h1 {
 }
 
 .like-button:not(.like-button--liked):hover {
-    background-color: #e3e3e3
+    background-color:#e3e3e3;
 }
 
 .like-button__label {
@@ -123,6 +123,8 @@ h1 {
 }
 
 .like-button--liked {
+    background-color: blue;
     color: #0CD977;
     cursor: default;
 }
+
